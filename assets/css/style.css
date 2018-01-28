@@ -5,7 +5,22 @@
 .bg-color-name-title{
 	background-color: #212121;
 }
+.ui-menu-color-home {
+	background-color: #e67e22;
+}
 
+.ui-menu-color-resume {
+	background-color: #9b59b6
+	
+}
+
+.ui-menu-color-contact {
+	background-color: #3498db
+}
+
+.ui-menu-color-download {
+	background-color: #525252;
+}
 /*--------------------------------- Heading --------------------------------- */
 header {
 	margin: 0;
