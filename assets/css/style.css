@@ -60,6 +60,10 @@ header {
 #nav {
 	margin: 0;
 }
+
+#nav li {
+	padding: 0;
+}
 .menu-item {
 	height: 120px;
 	text-align: center;
@@ -89,4 +93,12 @@ header {
 	font-size: 14px;
 	font-weight: 300px;
 	letter-spacing: 2px;
+}
+
+/* ------------------ hover.css ------------------ */
+
+.hvr-sweep-to-bottom:before {
+	background: rgba(33,33,33,0.2);
+	height: 120px;
+	
 }
