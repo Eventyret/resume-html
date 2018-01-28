@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,800|Exo:100,300,400,500,800');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,800|Exo:100,300,400,500,800");
 
 /*--------------------------------- Colors --------------------------------- */
 
-.bg-color-name-title{
+.bg-color-name-title {
 	background-color: #212121;
 }
 .ui-menu-color-home {
@@ -10,12 +10,11 @@
 }
 
 .ui-menu-color-resume {
-	background-color: #9b59b6
-	
+	background-color: #9b59b6;
 }
 
 .ui-menu-color-contact {
-	background-color: #3498db
+	background-color: #3498db;
 }
 
 .ui-menu-color-download {
@@ -26,14 +25,13 @@
 	background-color: #fff;
 }
 
-
 /*--------------------------------- Heading --------------------------------- */
 header {
 	margin: 0;
 }
 
 .heading {
-	margin-left: 50px;	
+	margin-left: 50px;
 }
 
 .logo {
@@ -42,9 +40,9 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 360px;
-	transition: all .5 ease-out;
-	-moz-transition: all .5 ease-out;
-	-webkit-transition: all .5 ease-out;
+	transition: all 0.5 ease-out;
+	-moz-transition: all 0.5 ease-out;
+	-webkit-transition: all 0.5 ease-out;
 }
 
 .name {
@@ -104,13 +102,15 @@ header {
 /* ------------------ hover.css ------------------ */
 
 .hvr-sweep-to-bottom:before {
-	background: rgba(33,33,33,0.2);
+	background: rgba(33, 33, 33, 0.2);
 	height: 120px;
-	
 }
 
 /* ------------------- Special Padding / Margin / Text -------------------- */
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
 	margin: 0;
 }
 
@@ -136,6 +136,7 @@ h1,h2,h3,h4 {
 
 .row-table {
 	display: table;
+	background-color: #212121;
 }
 
 .section-heading {
@@ -143,7 +144,6 @@ h1,h2,h3,h4 {
 	font-weight: 300;
 	margin-top: 25px;
 	margin-bottom: 40px;
-	
 }
 /* ------------------- Footer -------------------- */
 
@@ -162,10 +162,10 @@ footer .cv-pdf i {
 
 footer .cv-pdf i:hover {
 	color: #e84610;
-	transition:  all 0.35s ease-in-out;
-	-moz-transition:  all 0.35s ease-in-out;
-	-webkit-transition:  all 0.35s ease-in-out;
-	-o-transition:  all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links {
@@ -182,10 +182,10 @@ footer .cv-pdf i:hover {
 	text-align: center;
 	color: #fafafa;
 	background: #8f8f8f;
-	transition:  all 0.35s ease-in-out;
-	-moz-transition:  all 0.35s ease-in-out;
-	-webkit-transition:  all 0.35s ease-in-out;
-	-o-transition:  all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -194,4 +194,14 @@ footer .cv-pdf i:hover {
 
 #footer-details {
 	margin: 20px;
+}
+
+/* ------------------- Three reasons why -------------------- */
+
+.three-reasons-icon {
+	font-size: 26px;
+	color: #e67e22;
+}
+.three-reasons-heading {
+	margin-bottom: 15px;
 }
