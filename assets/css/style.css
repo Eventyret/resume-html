@@ -25,6 +25,10 @@
 	background-color: #fff;
 }
 
+.bg-color-personal-info { 
+	background-color: #f4f4f4;
+}
+
 /*--------------------------------- Heading --------------------------------- */
 header {
 	margin: 0;
@@ -205,3 +209,6 @@ footer .cv-pdf i:hover {
 .three-reasons-heading {
 	margin-bottom: 15px;
 }
+
+/* ------------------- Personal Info-------------------- */
+
