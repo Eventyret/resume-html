@@ -56,3 +56,12 @@ header {
 	margin-bottom: 90px;
 	color: #fff;
 }
+
+#nav {
+	margin: 0;
+}
+.menu-item {
+	height: 120px;
+	text-align: center;
+	padding: 0;
+}
