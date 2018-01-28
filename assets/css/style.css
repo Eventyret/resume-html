@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,800|Exo:100,300,400,500,800');
+
+/*--------------------------------- Colors --------------------------------- */
+
+.bg-color-name-title{
+	background-color: #212121;
+}
+
+/*--------------------------------- Heading --------------------------------- */
+header {
+	margin: 0;
+}
+
+.heading {
+	margin-left: 50px;	
+}
+
+.logo {
+	background: url("../img/profile.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+	transition: all .5 ease-out;
+	-moz-transition: all .5 ease-out;
+	-webkit-transition: all .5 ease-out;
+}
+
+.name {
+	font-family: "Exo", sans-serif;
+	font-weight: 100;
+	font-size: 46px;
+	margin-top: 50px;
+	color: #fff;
+}
+.title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 90px;
+	color: #fff;
+}
