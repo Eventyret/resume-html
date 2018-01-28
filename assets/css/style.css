@@ -102,3 +102,27 @@ header {
 	height: 120px;
 	
 }
+
+/* ------------------- Special Padding / Margin / Text -------------------- */
+h1,h2,h3,h4 {
+	margin: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.general-sub {
+	font-family: "Exo", sans-serif;
+	font-weight: 300;
+	color: #fafafa;
+}
+
+/* ------------------- Footer -------------------- */
+
+footer {
+	background-color: #212121;
+	color: #fafafa;
+	min-height: 120px;
+	margin: 0px;
+}
